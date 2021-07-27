@@ -3,10 +3,11 @@ import styled from "styled-components";
 import Social from "./Social";
 
 const AboutContainer = styled.div`
-  width: fit-content;
+  width: 255px;
   text-align: center;
   font-family: Arial;
   color: slategray;
+  margin: 0 20px;
 `;
 
 const Avatar = styled.img`
@@ -24,7 +25,7 @@ const Name = styled.h1`
 `;
 
 const Jobs = styled.h3`
-  color: black;
+  color: #187bc1;
   font-size: large;
   margin-top: 5px;
   margin-bottom: 5px;

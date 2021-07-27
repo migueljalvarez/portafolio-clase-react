@@ -7,7 +7,7 @@ const Info = {
   jobs: "Full Stack Developer",
   description: "Desarrollando Aplicaciones de Alta Calidad",
   city: "Medellin, Antioquia.",
-  networks : [
+  networks: [
     {
       name: "Facebook",
       url: "https://www.facebook.com",
@@ -27,6 +27,24 @@ const Info = {
       name: "Github",
       url: "www.github.com",
       icon: FaGithub(),
+    },
+  ],
+  skills: [
+    {
+      name: "JavaScript",
+      percent: "85",
+    },
+    {
+      name: "TypeScript",
+      percent: "70",
+    },
+    {
+      name: "CSS",
+      percent: "60",
+    },
+    {
+      name: "HTML",
+      percent: "70",
     },
   ],
 };
