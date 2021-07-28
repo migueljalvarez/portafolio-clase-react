@@ -47,5 +47,11 @@ const Info = {
       percent: "70",
     },
   ],
+  experience: [
+    {
+      job: "Trabajor",
+      description: "Cargo asignado",
+    },
+  ],
 };
 export { Info };
