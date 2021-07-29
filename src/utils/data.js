@@ -53,5 +53,6 @@ const Info = {
       description: "Cargo asignado",
     },
   ],
+  certifications: ["Responsive Web Design"]
 };
 export { Info };
