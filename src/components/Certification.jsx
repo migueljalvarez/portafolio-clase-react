@@ -4,11 +4,19 @@ import styled from 'styled-components'
 const CertificationContainer = styled.div`
     display: flex;
     flex-direction: column;
+    padding-left: 40px;
 `;
 
-const CertificationItem = styles.h2`
-    color: blue;
-`
+const CertificationTitle = styled.h2`
+    color: #187bc1;
+    font-size: xx-large;
+    letter-spacing: 10px;
+`;
+
+const CertificationItem = styled.p`
+    font-size: x-large;
+    font-weight: 500;
+`;
 
 export default class Certification extends Component {
     render() {
@@ -16,9 +24,10 @@ export default class Certification extends Component {
 
         return (
             <CertificationContainer>
+                <CertificationTitle>Certificaciones</CertificationTitle>
                 {
                     data.map((data, index) => (
-                        <CertificationItem>{data.certification}</CertificationItem>
+                        <CertificationItem key={index}>{data}</CertificationItem>
                     ))
                 }
             </CertificationContainer>
