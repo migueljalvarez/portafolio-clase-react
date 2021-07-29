@@ -6,10 +6,9 @@ import styled from "styled-components";
 import { Info } from "../utils/data";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Certification from '../components/Certification'
-
-const { certifications } = Info;
-const { skills } = Info;
+import Certification from "../components/Certification";
+import Experience from "../components/Experience";
+const { skills , certifications, experience} = Info;
 const Main = styled.main`
   display: flex;
 `;
@@ -25,6 +24,7 @@ class App extends Component {
         <Wrapper>
           <About data={Info} />
           <div>
+            <Experience data={experience} />
             <Certification data={certifications} />
             <Skills data={skills} />
           </div>
