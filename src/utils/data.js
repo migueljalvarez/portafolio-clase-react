@@ -49,8 +49,8 @@ const Info = {
   ],
   experience: [
     {
-      job: "Trabajor",
-      description: "Cargo asignado",
+      job: "Full Stack Developer",
+      description: "Croper S.A.S",
     },
   ],
   certifications: ["Responsive Web Design"]
