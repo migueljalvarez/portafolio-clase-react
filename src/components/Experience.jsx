@@ -4,10 +4,13 @@ import styled from 'styled-components'
 const ExperienceContainer = styled.div`
   display: flex ;
   flex-direction: column;
+  padding-left: 40px;
+  
 `;
 const ExperienceTitle = styled.h2`
-    font-size: 18px;
-    color: blue;
+    color: #187bc1;
+    font-size: xx-large;
+    letter-spacing: 10px;
 `;
 
 const ExperienceElement = styled.div`
@@ -16,9 +19,11 @@ const ExperienceElement = styled.div`
 `;
 
 const ExperienceJobs = styled.h2`
+    font-size: x-large;
 `;
 
 const ExperienceDescription = styled.p`
+    font-size: large;
 `;
 
 export default class Experience extends Component {
@@ -31,7 +36,7 @@ export default class Experience extends Component {
                 {
                     data.map((data, index) => (
                         <ExperienceElement key={index}>
-                            <ExperiencePost>{data.job}</ExperiencePost>
+                            <ExperienceJobs>{data.job}</ExperienceJobs>
                             <ExperienceDescription>{data.description}</ExperienceDescription>
                         </ExperienceElement>
                     ))
