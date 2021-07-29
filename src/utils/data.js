@@ -57,7 +57,7 @@ const Info = {
   studies: [
     {
       name: "Academia Geek",
-      description: "Desarrollador Front-End Junior",
+      description: "Frontend Developer ",
     },
   ],
 };
