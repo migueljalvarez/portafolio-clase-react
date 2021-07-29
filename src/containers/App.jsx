@@ -8,7 +8,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Certification from "../components/Certification";
 import Experience from "../components/Experience";
-const { skills , certifications, experience} = Info;
+import Studies from "../components/Studies";
+
+const { skills , certifications, experience, studies} = Info;
+
 const Main = styled.main`
   display: flex;
 `;
@@ -26,6 +29,7 @@ class App extends Component {
           <div>
             <Experience data={experience} />
             <Certification data={certifications} />
+            <Studies data={studies} />
             <Skills data={skills} />
           </div>
         </Wrapper>
