@@ -53,6 +53,12 @@ const Info = {
       description: "Cargo asignado",
     },
   ],
-  certifications: ["Responsive Web Design"]
+  certifications: ["Responsive Web Design"],
+  studies: [
+    {
+      name: "Academia Geek",
+      description: "Desarrollador Front-End Junior",
+    },
+  ],
 };
 export { Info };
